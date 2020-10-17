@@ -2,11 +2,12 @@
     --title-text-color:#212121;
     --p-text-color:#757575;
     --highlight-color:#2196F3;
+    --white-color:#FFFFFF;
 }
 
 body {
     font-family: Roboto, sans-serif;
-    background-color: #FFFFFF;
+    background-color: var(--white-color);
     
 }
 
@@ -46,7 +47,7 @@ body {
 
 }
 
-/* навигация страниц */
+/* навигация шапки */
 .link-nav {
     font-family: Roboto;
     font-style: normal;
@@ -57,7 +58,7 @@ body {
     color: var(--title-text-color);
 }
 
-/* контакты в наыигации */
+/* контакты в шапке */
 .link-contacts {
     font-family: Roboto;
     font-style: normal;
@@ -67,98 +68,45 @@ body {
     letter-spacing: 0.02em;
     color: var(--p-text-color);
 }
-/* главный заголовок h1 */
-.main-title {
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36em;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    background-color: #2F303A;
-}
-
-
-/* заказать услугу */
-.link-btn {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 1.9em;
-    letter-spacing: 0.06em;
-    color: #FFFFFF;
-    background-color: var(--highlight-color);
-    text-decoration: none;
-}
-
-/* .link-btn:hover,
-.link-btn:focus 
-{} */
-
-/* заголовки в особенностях */
-.item-list-header {
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height:  1.14em;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--title-text-color);
-}
-
-
-/* абзацы особенностей */
-.desc {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 1.71em;
-    letter-spacing: 0.03em;
-    color: var(--p-text-color);
-}
-
-/* заголовки h2 */
-.subtitle {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 1.17em;
-    letter-spacing: 0.03em;
-    color: var(--title-text-color);
-}
-
-/* наша команда имена */
-
-.subtitle-names {
+/* Основной контент */
+.btn {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.19em;
+    line-height: 1.625em;
     letter-spacing: 0.03em;
-    color: var(--title-text-color);
+    color:  var(--title-text-color);
+    
 }
 
-/* наша команда должность */
+.btn:hover,
+.btn:focus {
+    background-color: var(--highlight-color);
+    color: var(--white-color);
+}
 
-.text-job {
+.subtitle {
     font-family: Roboto;
     font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 1.19em;
-    letter-spacing: 0.03em;
-    color: var(--p-text-color);
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2em;
+    letter-spacing: 0.06em;
+    color:  var(--title-text-color);
 }
+
+.text {
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.875em;
+letter-spacing: 0.03em;
+color: var(--p-text-color);
+
+}
+
 /* подвал */
 .footer {
     background-color: #2F303A;
@@ -171,7 +119,7 @@ body {
     font-size: 26px;
     line-height: 1.19em;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--white-color);
 }
 
 .logo-footer-first {
@@ -192,7 +140,7 @@ body {
     font-size: 14px;
     line-height: 1.71em;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--white-color);
 }
 
 /* контакты */
